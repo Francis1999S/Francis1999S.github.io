@@ -1,0 +1,30 @@
+
+h1, h3{
+    display: inline;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+div{
+    background-color: rgb(48, 48, 48);
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.row{
+ color: rgb(255, 255, 255);
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 50%;
+        opacity: 0%;
+    }
+
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}

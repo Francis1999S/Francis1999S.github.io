@@ -1,0 +1,48 @@
+img{
+    width: 25px;
+    margin-right: 20px;
+}
+#Facebook{
+    border-radius: 10%;
+    scale: 110%;
+    transition: 0.5s;
+}
+#Facebook:hover{
+    border-radius: 10%;
+    transition: 0.5s;
+    scale: 130%;
+    filter: drop-shadow(0px 0px 6px white);
+}
+#LinkedIn{
+    border-radius: 10%;
+    scale: 110%;
+    transition: 0.5s;
+}
+#LinkedIn:hover{
+    border-radius: 10%;
+    transition: 0.5s;
+    scale: 130%;
+    filter: drop-shadow(0px 0px 6px white);
+}
+#GitHub{
+    border-radius: 10%;
+    scale: 110%;
+    transition: 0.5s;
+}
+#GitHub:hover{
+    border-radius: 10%;
+    transition: 0.5s;
+    scale: 130%;
+    filter: drop-shadow(0px 0px 6px white);
+}
+#Instagram{
+    transition: 0.5s;
+    border-radius: 25%;
+    scale: 110%;
+}
+#Instagram:hover{
+    transition: 0.5s;
+    border-radius: 25%;
+    scale: 130%;
+    filter: drop-shadow(0px 0px 6px white);
+}

@@ -1,0 +1,72 @@
+.row{
+    padding: 25px;
+}
+div{
+    background-color: rgb(48, 48, 48);
+    text-align: left;
+}
+#Nombre{
+    font-size: 2em;
+    text-align: center;
+    margin-left: 0em;
+    font-weight: bold;
+    color: white
+}
+#Titulo{
+    font-size: 1.5em;
+    margin-left: 0;
+    text-align: center;
+    color: white
+}
+#AcercaDeMi{
+    animation-duration: 2s;
+    animation-name: slidein2;
+    margin-left: 1em;
+    font-size: 3em;
+    color: white
+}
+#Descripcion{
+    animation-duration: 2s;
+    animation-name: slidein;
+    margin-left: 2em;
+    font-size: 1.5em;
+    color: white;
+}
+#Perfil{
+    transition: 1s;
+    scale: 0.9;
+    border-radius: 50%;
+    margin-top: -155px;
+    box-shadow: 7px 10px 10px rgb(33, 33, 33);
+}
+#Perfil:hover{
+    transition: 1s;
+    scale: 1;
+    border-radius: 50%;
+    margin-top: -155px;
+    box-shadow: 7px 10px 10px rgb(33, 33, 33);
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 50%;
+        opacity: 0%;
+    }
+
+    to {
+        margin-left: 2em;
+        opacity: 100%;
+    }
+}
+
+@keyframes slidein2{
+    from {
+        margin-left: 50%;
+        opacity: 0%;
+    }
+
+    to {
+        margin-left: 1em;
+        opacity: 100%;
+    }
+}
